@@ -44,11 +44,11 @@ const FooterLink: React.FC<FooterLinkProps> = ({ to, children }) => {
 
 export const Footer = () => {
   return (
-    <div className="w-full bg-black text-gray-300 hover:text-gray-100 py-8">
+    <div className="w-full bg-white text-gray-300 hover:text-gray-100 py-8">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* First Column: Links */}
-          <div>
+          {/* <div>
             <h3 className="font-bold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
               {MainRoutes.map((route) => (
@@ -57,20 +57,20 @@ export const Footer = () => {
                 </FooterLink>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Second Column: About Us */}
-          <div>
+          {/* <div>
             <h3 className="font-bold text-lg mb-4">About Us</h3>
             <p>
               We are committed to helping you unlock your full potential with
               AI-powered tools. Our platform offers a wide range of resources to
               improve your interview skills and chances of success.
             </p>
-          </div>
+          </div> */}
 
           {/* Third Column: Services */}
-          <div>
+          {/* <div>
             <h3 className="font-bold text-lg mb-4">Services</h3>
             <ul>
               <FooterLink to="/services/interview-prep">
@@ -83,10 +83,10 @@ export const Footer = () => {
                 Resume Building
               </FooterLink>
             </ul>
-          </div>
+          </div> */}
 
           {/* Fourth Column: Address and Social Media */}
-          <div>
+          {/* <div>
             <h3 className="font-bold text-lg mb-4">Contact Us</h3>
             <p className="mb-4">123 AI Street, Tech City, 12345</p>
             <div className="flex gap-4">
@@ -111,7 +111,7 @@ export const Footer = () => {
                 hoverColor="text-blue-700"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </Container>
     </div>

@@ -19,6 +19,9 @@ export const MockInterviewPage = () => {
 
   const navigate = useNavigate();
 
+
+  
+
   useEffect(() => {
     setIsLoading(true);
     const fetchInterview = async () => {

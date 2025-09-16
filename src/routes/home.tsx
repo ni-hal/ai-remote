@@ -9,8 +9,8 @@ import { Link } from "react-router-dom";
 const HomePage = () => {
   return (
     <div className="flex-col w-full pb-24">
-      <Container>
-        <div className="my-8">
+     
+        {/* <div className="my-8">
           <h2 className="text-3xl text-center md:text-left md:text-6xl">
             <span className=" text-outline font-extrabold md:text-8xl">
               AI Superpower
@@ -27,9 +27,9 @@ const HomePage = () => {
             AI-driven insights. Discover a smarter way to prepare, practice, and
             stand out.
           </p>
-        </div>
+        </div> */}
 
-        <div className="flex w-full items-center justify-evenly md:px-12 md:py-16 md:items-center md:justify-end gap-12">
+        {/* <div className="flex w-full items-center justify-evenly md:px-12 md:py-16 md:items-center md:justify-end gap-12">
           <p className="text-3xl font-semibold text-gray-900 text-center">
             250k+
             <span className="block text-xl text-muted-foreground font-normal">
@@ -42,10 +42,10 @@ const HomePage = () => {
               Interview Aced
             </span>
           </p>
-        </div>
+        </div> */}
 
         {/* image section */}
-        <div className="w-full mt-4 rounded-xl bg-gray-100 h-[420px] drop-shadow-md overflow-hidden relative">
+        {/* <div className="w-full mt-4 rounded-xl bg-gray-100 h-[420px] drop-shadow-md overflow-hidden relative">
           <img
             src="/assets/img/hero.jpg"
             alt=""
@@ -67,11 +67,11 @@ const HomePage = () => {
               Generate <Sparkles />
             </Button>
           </div>
-        </div>
-      </Container>
+        </div> */}
+    
 
       {/* marquee section */}
-      <div className=" w-full my-12">
+      {/* <div className=" w-full my-12">
         <Marquee pauseOnHover>
           <MarqueImg img="/assets/img/logo/firebase.png" />
           <MarqueImg img="/assets/img/logo/meet.png" />
@@ -82,9 +82,9 @@ const HomePage = () => {
           <MarqueImg img="/assets/img/logo/tailwindcss.png" />
           <MarqueImg img="/assets/img/logo/microsoft.png" />
         </Marquee>
-      </div>
+      </div> */}
 
-      <Container className="py-8 space-y-8">
+      {/* <Container className="py-8 space-y-8">
         <h2 className="tracking-wide text-xl text-gray-800 font-semibold">
           Unleash your potential with personalized AI insights and targeted
           interview practice.
@@ -113,7 +113,7 @@ const HomePage = () => {
             </Link>
           </div>
         </div>
-      </Container>
+      </Container> */}
     </div>
   );
 };
